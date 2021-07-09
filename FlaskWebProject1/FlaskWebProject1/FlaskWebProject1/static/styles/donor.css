@@ -1,0 +1,82 @@
+.top_container {
+  padding: 3rem 0 3rem 37rem;
+  border: 2px solid rgb(88, 202, 187);
+  /* background-color:  rgb(196, 41, 41); */
+  background: linear-gradient(
+      to top,
+      rgba(37, 36, 36, 0.98),
+      rgba(0, 0, 0, 0.58)
+    ),
+    url("images\Blood.jpg");
+  max-width: 100%;
+}
+p#sub_header {
+  font-style: italic;
+  padding-left: 0.5rem;
+}
+
+.name {
+  padding-top: 2rem;
+  padding-left: 35rem;
+  max-width: 100%;
+}
+.blood_grp {
+  padding-left: 35rem;
+  padding-top: 1.5rem;
+}
+
+p#contact {
+  padding-left: 40rem;
+  background-color: gray;
+}
+
+.number {
+  padding-top: 2rem;
+  padding-left: 35rem;
+  max-width: 100%;
+}
+.Country {
+  padding-top: 2rem;
+  padding-left: 35rem;
+  max-width: 100%;
+}
+.State {
+  padding-top: 2rem;
+  padding-left: 35rem;
+  max-width: 100%;
+}
+.District {
+  padding-top: 2rem;
+  padding-left: 35rem;
+  max-width: 100%;
+}
+.Email {
+  padding-top: 2rem;
+  padding-left: 35rem;
+  max-width: 100%;
+}
+
+.Password {
+  padding-top: 2rem;
+  padding-left: 35rem;
+  max-width: 100%;
+}
+
+.Checkbox {
+  display: inline-block;
+  padding-top: 2rem;
+  padding-left: 35rem;
+  max-width: 100%;
+}
+.check_para {
+  display: inline;
+}
+.Submit {
+  padding-top: 2rem;
+  padding-left: 45rem;
+  max-width: 100%;
+}
+.button_sub {
+  color: rgb(216, 45, 45);
+  border: red;
+}
