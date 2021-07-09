@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" link
+    href="{{ url_for('static', filename='styles/hack.css') }}">
+    <title>Login</title>
+</head>
+<body>
+    <div class="loginbox">
+        
+        <h1>Login Here</h1>
+        <form action="{{ url_for("gfg")}}" method="post">
+            <p>Username</p>
+            <input type="text" name="Uname" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" name="pass1" placeholder="Enter Password">
+            <input type="submit" name="" value="Login"><br>
+            <a href="{{ url_for('hom') }}"name="Acc">Don't Have An Account?</a>
+        </form>
+    </div>
+</body>
+</html>
+
