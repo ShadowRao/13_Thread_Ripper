@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b1919b;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    
+}
+.b1{
+    background-color: rgb(255, 255, 255);
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 10%;
+    border-radius: 10px;
+    height: 250px;
+    width: 700px;
+}
+h1 {
+    margin-left: 25%;
+    padding: 0 0 20px;
+    font-size: 22px;
+    cursor: default;
+    color: red;
+}
+
+
+.b1 p{
+    margin-left: 15%;
+    padding: 0;
+    font-weight: bold;
+    cursor: default;
+    color: red;
+}
+
+.in {
+    margin-left: 15%;
+    padding: 0;
+    font-weight: bold;
+    cursor: default;
+    color: red;
+}
+
+.b1 img {
+    height: 100px;
+    width: 100px;
+    float: right;
+}
+
+.b1 input[type="submit"]
+{
+    margin-left: 22%;
+    margin-top: 2%;
+    border: none;
+    outline: none;
+    height: 30px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 23px;
+}
+.b1 input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #f38787;
+    color: #000;
+}
+
+.UMaps{
+   float: right;
+  }
+ 
+.MMaps{
+    position: relative;
+    float: right;
+
+}  
