@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank</title>
+    <link rel="stylesheet" href="css/index1.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <img src="https://iconarchive.com/download/i62983/dapino/medical/blood-drop.ico" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-white-500 rounded-full" viewBox="0 0 24 24">
+          </img>
+            <span class="ml-3 text-xl">Blood Bank</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900">Home</a>
+            <a class="mr-5 hover:text-gray-900" style="padding-left: .5rem;">Search</a>
+            <a class="mr-5 hover:text-gray-900"><div class="dropdown">
+                <button class="dropbtn">Services</button>
+                <div class="dropdown-content">
+                  <a href="donor.html">Donor Register</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div></a>
+            <a class="mr-5 hover:text-gray-900">Contact</a>
+          </nav>
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Login
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+    </header>
+    
+    <section class="text-gray-600 body-font" style="padding-left: 15rem;">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0" >
+            <img class="object-cover object-center rounded" alt="Main Logo" src="https://images.unsplash.com/photo-1615461065929-4f8ffed6ca40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+          </div>
+          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Donate Blood
+              <br class="hidden lg:inline-block">Save Life.
+            </h1>
+            <p class="mb-8 leading-relaxed">Lets Unite and make the world a better place to live.</p>
+            <div class="flex justify-center">
+              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Login</button>
+              <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"><a href="donor.html">Register</a></button>
+            </div>
+          </div>
+        </div>
+    </section>
+      
+      
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" >
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900" style="padding-left: 15rem;">Lorem ipsum dolor sit amet .</h1>
+                <p class="mb-8 leading-relaxed" style="padding-left: 15rem;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, quo?</p>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="data:image/jpeg;base64,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">
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <img src="https://iconarchive.com/download/i62983/dapino/medical/blood-drop.ico" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-white-500 rounded-full" viewBox="0 0 24 24">
+              
+          </img>
+            <span class="ml-3 text-xl">Blood Bank</span>
+          </a>
+          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 Blood Bank —
+            <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@Thread_Ripper</a>
+          </p>
+        
+        </div>
+      </footer>
+
+</body>
+</html>

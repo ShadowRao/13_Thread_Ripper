@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+
+    <link rel="stylesheet" href="css/donor.css">
+    
+</head>
+<body>
+    <form action="action.php" method="POST">
+        
+        <div class="top_container">
+            <h1>Blood Donation Form</h1>
+            <p id="sub_header" >Donate Blood , Save Life</p>
+        </div>
+
+        <div class="name">
+            <label for="Name">Full Name : </label>&emsp;
+            &emsp;<input type="text" id="Name" required>
+        </div>
+
+        <div class="blood_grp">
+            <label for="Blood">Blood Group :</label>&emsp;
+            &emsp;<select name="Blood" required >
+                <option value="" selected>Select</option>
+                <option value="A+">A+ve</option>
+                <option value="A-">A-ve</option>
+                <option value="B+">B+ve</option>
+                <option value="B-">B-ve</option>
+                <option value="AB+">AB+ve</option>
+                <option value="AB-">AB-ve</option>
+                <option value="O+">O+ve</option>
+                <option value="O-">O-ve</option> 
+            </select>
+        </div>
+        
+
+        <div class="number">
+            <label for="Phno">Phone Number :</label>&emsp;
+            &emsp;<input type="tel" id="Phno" name="Phno" pattern="^\d{10}$" required>
+        </div>
+
+        <div class="Country">
+            <label for="country">Country :</label>&emsp;
+            &emsp;<select name="country" size="1">
+                <option value="" selected="selected">Select Country</option>
+                <option value="India">India</option>
+            </select>
+        </div>
+
+        <div class="State">
+            <label for="state">State :</label>&emsp;
+            &emsp;<select name="state" size="1">
+                <option value="" selected="selected">Select State</option>
+                <option value="Karnataka">Karnataka</option>
+            </select>
+        </div>
+
+        <div class="District">
+            <label for="district">District :</label>&emsp;
+            &emsp;<select name="district" size="1">
+                <option value="" selected="selected">Select District</option>
+                <option value="Udupi">Udupi</option>
+                <option value="Mangalore">Mangalore</option>
+            </select>
+        </div>
+
+        <div class="Email">
+            <label for="email">Email-ID : </label>&emsp;
+            <input type="email" id="email" required>
+        </div>
+
+        <div class= "Checkbox">
+            <input type="checkbox" name="check" required><p class="check_para">I authorise this website to display my name and <br>
+                telephone number, so that the needy could contactme, <br>
+                as and when there is emergency</p>
+        </div>
+
+        <div class="Submit">
+            <button type="submit" class="button_sub">Submit</button>
+        </div>
+
+
+
+    </form>
+</body>
+</html>
