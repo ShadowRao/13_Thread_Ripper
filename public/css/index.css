@@ -1,7 +1,7 @@
 /* Dropdown Button */
 .dropbtn {
-    background-color: white;
-    color: grey;
+    background-color: rgb(214, 219, 219);
+    color: black;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -40,3 +40,33 @@
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
   
+/* Style the header */
+#header {
+  padding: 10px 16px;
+  background: rgb(214, 219, 219);
+  color: #131212;
+  /*Opacity start*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.80;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+  /*Opacity end*/
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
