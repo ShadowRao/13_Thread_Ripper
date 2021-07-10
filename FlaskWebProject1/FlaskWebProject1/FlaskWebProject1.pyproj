@@ -40,6 +40,7 @@
     <Folder Include="FlaskWebProject1\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FlaskWebProject1\static\scripts\Calender.js" />
     <Content Include="FlaskWebProject1\templates\Hack1.html" />
     <Content Include="FlaskWebProject1\templates\home.html" />
     <Content Include="FlaskWebProject1\templates\MMaps.html" />
