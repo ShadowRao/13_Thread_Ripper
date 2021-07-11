@@ -81,18 +81,70 @@ img {
   height: auto; 
 }
 
+section#sec1{
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to top,rgba(63, 61, 61, 0.98), rgba(0,0,0,0.580)) ,url("https://www.lalchandanipathlab.com/assets/website/images/blood%20bank.jpg");
+  color: #131212;
+  background-size: i;
+  @media screen {
+    url{
+      display:block;
+    }
+  }
+}
+
+
+
 @media screen and (min-width:0px) and (max-width:800px) {
   header#header{
     display: block;
     padding: inherit;
   }
+
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+@media screen and (min-width:100px) and (max-width:1000px) {
   section#sec1{
     display: block;
-    width: inherit;
-    padding-left: 2em;
+    padding-left: 23px;
+    max-width: 100%;
+    
+  }
+  .md\:flex-row {
+    flex-direction: row;
   }
 }
 
+@media  screen and (max-width:1000px) {
+  section#sec1{
+    display: block;
+    background-image: inherit;
 
+  }
+}
+@media screen and (min-width:100px) and (max-width:1000px) {
+  section#sec2{
+    display: block;
+    padding-left: 21/25rem;
+    max-width: 100%;
+    
+  }
+  .md\:flex-row {
+    flex-direction: row;
+  }
+  section#sec2h{
+    display: block;
+    padding-left: 21/25rem;
+  }
+  section#sec4{
+    
+    padding-left: 21/25rem;
+  }
+}
 
 

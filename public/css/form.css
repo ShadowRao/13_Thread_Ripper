@@ -59,15 +59,6 @@ select#phno  {
   background: #f7f7f7;
 	font-family: Montserrat,Arial, Helvetica, sans-serif;
 }
-select#country{
-  width: 6rem;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f7f7f7;
-	font-family: Montserrat,Arial, Helvetica, sans-serif;
-}
 select#Blood{
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -76,6 +67,34 @@ select#Blood{
   background: #f7f7f7;
 	font-family: Montserrat,Arial, Helvetica, sans-serif;
 }
+select#country{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+select#state{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+select#district{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+}
+
 
 input[type=phone] {
   width: 76.5%;
