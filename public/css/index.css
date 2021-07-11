@@ -87,10 +87,11 @@ section#sec1{
   background: linear-gradient(to top,rgba(63, 61, 61, 0.98), rgba(0,0,0,0.580)) ,url("https://www.lalchandanipathlab.com/assets/website/images/blood%20bank.jpg");
   color: #131212;
   background-size: i;
-  @media screen {
-    url{
-      display:block;
-    }
+  
+}
+@media screen {
+  url{
+    display:block;
   }
 }
 
